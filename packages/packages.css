@@ -1,0 +1,81 @@
+main {
+    padding-top: 32px;
+}
+
+.background {
+    background: url('../images/background.jpg');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.plan {
+    width: 80%;
+    border: 5px solid black;
+    border-left: none;
+    margin: 16px 0;
+    position: relative;
+}
+
+.plan:hover,
+.plan:active {
+    border-color: orangered !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.plan a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 32px;
+}
+
+.plan-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    color: white;
+    background: orangered;
+    padding: 8px;
+}
+
+.plan-subtitle {
+    color: gray;
+}
+
+.plan-desc {
+    background: white;
+    color: #0e4f1f;
+    padding: 16px;
+    border: 1px solid green;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#plus {
+    background: #87ffa7;
+}
+
+#free {
+    background: #87ffa7;
+    float: right;
+    border-right: none;
+    border-left: 5px solid black;
+    text-align: right;
+}
+
+#premium {
+    background: #00310d;
+}
+
+#premium .plan-title{
+    color: white;
+}
+
+#premium .plan-subtitle{
+    color: #bbb;
+}
